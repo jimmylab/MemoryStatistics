@@ -1,0 +1,139 @@
+﻿Sleep(20):
+==================================
+Before: 2699264
++212992
+After : 2912256
+-40960
+Delete: 2871296
+
+
+Sleep(1000):
+==================================
+Before: 2691072
++212992
+After : 2904064
++40960
+Delete: 2863104
+
+
+Sleep(1000)+Sleep(1000)
+==================================
+Before: 2686976
++212992
+After : 2899968
+-40960
+Delete: 2859008
+
+
+Before: 2691072
++212992
+After : 2904064
+-40960-----Ended Stats. Max Memory: 2904064
+Delete: 2863104
++45192
+After : 2912256
+-45192-----Ended Stats. Max Memory: 2912256
+Delete: 2863104
+
+
+Before: 2699264
++212992
+After : 2912256
+-40960-----Ended Stats. Max Memory: 2912256
+Delete: 2871296
+
+Before: 2871296
++45056------Started Once*7
+After : 2916352
+-45056------Ended Stats. Max Memory: 2916352
+Delete: 2871296
+
+
+Before: 2871296
++45056------Started Once*8
+After : 2916352
+-45056------Ended Stats. Max Memory: 2916352
+Delete: 2871296
+
+
+Before: 2695168
+After : 2879488
+Delete: 2859008
+
+Before: 2859008
+After : 2883584
+Delete: 2859008
+
+Before: 2859008
+After : 2883584
+Delete: 2859008
+
+24576 Bytes
+
+
+
+
+Before: 2699264
+After : 2887680
+Delete: 2863104
+Before: 2863104
+After : 2887680
+Delete: 2863104
+Before: 2863104
+After : 2891776
+Delete: 2863104
+
+24576 Bytes = 6 Pages     28672 Bytes = 7 Pages
+
+Before: 2691072
+After : 2883584
+Delete: 2859008
+Before: 2859008
+After : 2891776
+Delete: 2859008
+Before: 2859008
+After : 2891776
+Delete: 2859008
+Before: 2859008
+After : 2887680
+Delete: 2859008
+
+32768 Bytes = 8 Pages
+
+
+Before: 2904064
+After : 3088384
+Delete: 3063808
+
+Before: 3063808
+After : 3096576
+Delete: 3063808
+
+Before: 3063808
+After : 3092480
+Delete: 3063808
+
+Before: 3063808
+After : 3096576
+Delete: 3063808
+
+32768 Bytes = 8 Pages     28672 Bytes = 7 Pages      24576 Bytes = 6 Pages
+
+
+Before: 2510848
+After : 2715648
+Delete: 2691072
+
+Before: 2691072
+After : 2719744
+Delete: 2691072
+
+Before: 2691072
+After : 2719744
+Delete: 2691072
+
+Before: 2691072
+After : 2719744
+Delete: 2691072
+
+28672 Bytes = 7 Pages
